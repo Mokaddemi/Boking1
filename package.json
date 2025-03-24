@@ -1,0 +1,36 @@
+{
+    "name": "restaurant-booking",
+    "version": "1.0.0",
+    "description": "Sistema de reservas para restaurantes",
+    "main": "index.js",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "body-parser": "^1.20.3",
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.7",
+        "express": "^4.21.2",
+        "mongoose": "^7.2.2",
+        "nodemailer": "^6.10.0",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-react": "^4.3.4",
+        "vite": "^5.0.0"
+    },
+    "engines": {
+        "node": ">=16.0.0"
+    },
+    "keywords": [
+        "reservas",
+        "restaurante",
+        "react",
+        "node"
+    ],
+    "author": "Tu Nombre",
+    "license": "MIT"
+}
